@@ -5,10 +5,9 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 void main() async {
   //supabase setup
   await Supabase.initialize(
-    url: 'https://sheweomvitegaeszvyks.supabase.co',
+    url: 'your url',
     // ignore: deprecated_member_use
-    anonKey: 'sb_publishable_VW9ZAFs7RMgf0eIz3Pdbiw_sg1WdQO3',
-  );
+    anonKey: 'your api key' );
   runApp(const MyApp());
 }
 
